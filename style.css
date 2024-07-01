@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: #53809389;
+    border-radius: 25px;
+    box-shadow: 0 15px 15px rgba(0, 0, 3, 0.397);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.img_section {
+    border-radius: 25px;
+    position: relative;
+    border-style: dotted;
+    background: linear-gradient(135deg, #30515e97 10%, #29404e42 100%);
+
+
+}
+
+/* .img_section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #2a3e4654 10%, #29404e42 100%);
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 25px;
+} */
+
+.default_info {
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+/* .default_info h2 {
+    font-size: 3rem;
+}
+
+.default_info h3 {
+    font-size: 1.3rem;
+    text-tran
+}
+
+.weather_temp {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* content section */
+.content_section {
+    padding: 1.5em;
+}
+
+.content_section form {
+    margin: 1.5rem ;
+    position: relative;
+}
+
+.fm{
+    display: flex;
+}
+
+.content_section form input {
+    width: 80%;
+    outline: none;
+    background: transparent;
+    background-color: #c7ccccb8;
+    border: 1px solid #37474f;
+    border-radius: 9px;
+    padding: 0.7rem 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.content_section form button {
+    
+    
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 1rem 0.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: #2da28e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.day_info .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+
+}
+
+.day_info .content .title {
+    font-weight: 600;
+}
+
+.list_content ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 3rem 0rem;
+    box-shadow: 0 5px 15px rgba(16, 34, 39, 0.35);
+}
+
+.list_content ul li {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in;
+}
+
+.list_content ul li:hover {
+    transform: scale(1.1);
+    background-color: #2da28e;
+    color: #0e1111;
+    box-shadow: 0 5px 15px rgba(150, 110, 203, 0.616);
+    cursor: pointer;
+}
+
+.list_content ul li img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.icons {
+    /* opacity: 0; */
+}
+
+.icons.fadeIn {
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.7s;
+}
+
+@keyframes fadeIn {
+    to {
+        transition: all 0.5s ease-in;
+        opacity: 1;
+    }
+}
